@@ -23,7 +23,13 @@
 				editor = K.create('textarea[name="content"]', {
 					resizeType : 1,
 					allowPreviewEmoticons : false,
-					allowImageUpload : false,
+					uploadJson : '${path}/file_upload/doimgupload.do',//上传文件必须
+					allowImageUpload : true,
+					allowFileManager : false,
+					afterUpload : function(url) {
+                        alert(url);
+                	},
+                	
 					items : [
 						'fontname', 'fontsize', '|', 'forecolor', 'hilitecolor', 'bold', 'italic', 'underline',
 						'removeformat', '|', 'justifyleft', 'justifycenter', 'justifyright', 'insertorderedlist',

@@ -30,7 +30,7 @@
 						'insertunorderedlist', '|', 'emoticons', 'image', 'link']
 				});
 			});
-		
+			
 		function  submit_form()
 		{
 			if($("input[name='title']").val()==undefined||$("input[name='title']").val().length==0)
