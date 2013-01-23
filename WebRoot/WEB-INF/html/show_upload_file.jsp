@@ -3,6 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
   	<meta charset="utf-8" />
+  	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />  
     <title>KindEditor-含上传插件的示例</title>
     <style>
 			form {
